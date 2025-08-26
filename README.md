@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 이메일 서명 생성기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**데모:** [https://sign-maker-one.vercel.app/](https://sign-maker-one.vercel.app/)
 
-## Available Scripts
+### 주요 기능
+1. **이메일 서명 생성**
+    - 사용자 정보 입력을 통한 자동 서명 생성
+    - 실시간 미리보기 제공
 
-In the project directory, you can run:
+### 입력 필드
+- 이름 (필수)
+- 영문 이름 (필수)
+- 부서명 (선택)
+- 직무 (필수)
+- 전화번호 (필수)
+- 이메일 (필수)
 
-### `npm start`
+### 기술적 특징
+1. **프레임워크 및 라이브러리**
+    - React 18.2.0
+    - styled-components를 사용한 스타일링
+    - Vite를 사용한 개발 환경
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **주요 구현 사항**
+    - 폼 유효성 검증
+    - 실시간 데이터 상태 관리 (useState)
+    - 사용자 친화적인 UI/UX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### UI 구성
+- 깔끔한 폼 디자인
+- 반응형 레이아웃 (max-width: 600px)
+- 시각적 피드백 (버튼 호버 효과, 에러 메시지 등)
+- 회사 로고 포함
 
-### `npm test`
+### 사용자 경험
+- 필수 입력 필드 검증
+- 이메일/전화번호 형식 검증
+- 실시간 에러 메시지 표시
+- 직관적인 폼 작성 흐름
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+이 앱은 기업의 일관된 이메일 서명 관리를 위한 실용적인 도구로서, 위 데모 링크에서 직접 사용해보실 수 있습니다.
